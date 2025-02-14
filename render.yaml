@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: Job_Posting_Authenticity_Analysis
+    runtime: python
+    buildCommand: pip install -r app/requirements.txt
+    startCommand: cd app && python app.py
+
